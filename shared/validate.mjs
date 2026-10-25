@@ -1,0 +1,5 @@
+export function number(n,name='value'){if(typeof n!=='number'||!Number.isFinite(n))throw new Error(`${name} must be finite`);return n;}
+export function positive(n,name='value'){number(n,name);if(n<=0)throw new Error(`${name} must be positive`);return n;}
+export function point(p){if(!Array.isArray(p)||p.length!==2)throw new Error('point must contain x,y');p.forEach(n=>number(n,'coordinate'));return p;}
+export function grid(g){if(!Array.isArray(g)||!g.length||!Array.isArray(g[0])||!g[0].length)throw new Error('non-empty rectangular grid required');const w=g[0].length;if(g.length*w>250000)throw new Error('grid exceeds 250,000 cells');for(const row of g){if(!Array.isArray(row)||row.length!==w)throw new Error('ragged grid');for(const n of row)if(n!==null)number(n,'cell');}return {height:g.length,width:w};}
+export function summary(values){const a=values.filter(Number.isFinite);if(!a.length)return {count:0,min:null,max:null,mean:null};let min=Infinity,max=-Infinity,sum=0;for(const x of a){min=Math.min(min,x);max=Math.max(max,x);sum+=x;}return {count:a.length,min,max,mean:sum/a.length};}

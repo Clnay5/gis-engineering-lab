@@ -1,0 +1,13 @@
+{
+  "name": "spatial-join-grid",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test core.test.mjs",
+    "demo": "node cli.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,547 @@
+{
+  "summary": {
+    "points": 12,
+    "polygons": 3,
+    "matched": 9,
+    "candidateTests": 14,
+    "bruteForceTests": 36,
+    "indexCells": 84
+  },
+  "matches": [
+    {
+      "point": 0,
+      "polygons": [
+        0
+      ]
+    },
+    {
+      "point": 1,
+      "polygons": [
+        0
+      ]
+    },
+    {
+      "point": 2,
+      "polygons": []
+    },
+    {
+      "point": 3,
+      "polygons": []
+    },
+    {
+      "point": 4,
+      "polygons": [
+        0
+      ]
+    },
+    {
+      "point": 5,
+      "polygons": [
+        1
+      ]
+    },
+    {
+      "point": 6,
+      "polygons": [
+        1
+      ]
+    },
+    {
+      "point": 7,
+      "polygons": [
+        1
+      ]
+    },
+    {
+      "point": 8,
+      "polygons": [
+        2
+      ]
+    },
+    {
+      "point": 9,
+      "polygons": []
+    },
+    {
+      "point": 10,
+      "polygons": [
+        0
+      ]
+    },
+    {
+      "point": 11,
+      "polygons": [
+        0,
+        1
+      ]
+    }
+  ],
+  "planarFeatures": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1,
+            1
+          ]
+        },
+        "properties": {
+          "index": 0,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2,
+            8
+          ]
+        },
+        "properties": {
+          "index": 1,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5,
+            5
+          ]
+        },
+        "properties": {
+          "index": 2,
+          "joins": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4,
+            4
+          ]
+        },
+        "properties": {
+          "index": 3,
+          "joins": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8,
+            2
+          ]
+        },
+        "properties": {
+          "index": 4,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12,
+            3
+          ]
+        },
+        "properties": {
+          "index": 5,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16,
+            5
+          ]
+        },
+        "properties": {
+          "index": 6,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15,
+            8
+          ]
+        },
+        "properties": {
+          "index": 7,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6,
+            12
+          ]
+        },
+        "properties": {
+          "index": 8,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22,
+            20
+          ]
+        },
+        "properties": {
+          "index": 9,
+          "joins": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            5
+          ]
+        },
+        "properties": {
+          "index": 10,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10,
+            5
+          ]
+        },
+        "properties": {
+          "index": 11,
+          "joins": 2
+        }
+      }
+    ]
+  },
+  "visual": {
+    "kind": "features",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0,
+                0
+              ],
+              [
+                10,
+                0
+              ],
+              [
+                10,
+                10
+              ],
+              [
+                0,
+                10
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            [
+              [
+                3,
+                3
+              ],
+              [
+                3,
+                7
+              ],
+              [
+                7,
+                7
+              ],
+              [
+                7,
+                3
+              ],
+              [
+                3,
+                3
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "index": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                9,
+                0
+              ],
+              [
+                19,
+                0
+              ],
+              [
+                19,
+                10
+              ],
+              [
+                9,
+                10
+              ],
+              [
+                9,
+                0
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "index": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0,
+                9
+              ],
+              [
+                10,
+                9
+              ],
+              [
+                10,
+                19
+              ],
+              [
+                0,
+                19
+              ],
+              [
+                0,
+                9
+              ]
+            ]
+          ]
+        },
+        "properties": {
+          "index": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            1,
+            1
+          ]
+        },
+        "properties": {
+          "index": 0,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            2,
+            8
+          ]
+        },
+        "properties": {
+          "index": 1,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            5,
+            5
+          ]
+        },
+        "properties": {
+          "index": 2,
+          "joins": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            4,
+            4
+          ]
+        },
+        "properties": {
+          "index": 3,
+          "joins": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            8,
+            2
+          ]
+        },
+        "properties": {
+          "index": 4,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            12,
+            3
+          ]
+        },
+        "properties": {
+          "index": 5,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            16,
+            5
+          ]
+        },
+        "properties": {
+          "index": 6,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            15,
+            8
+          ]
+        },
+        "properties": {
+          "index": 7,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            6,
+            12
+          ]
+        },
+        "properties": {
+          "index": 8,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            22,
+            20
+          ]
+        },
+        "properties": {
+          "index": 9,
+          "joins": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            5
+          ]
+        },
+        "properties": {
+          "index": 10,
+          "joins": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            10,
+            5
+          ]
+        },
+        "properties": {
+          "index": 11,
+          "joins": 2
+        }
+      }
+    ]
+  },
+  "limitations": "Planar non-self-intersecting Polygons, including holes. All matches retained; overlapping zones can produce multiple matches. No antimeridian support."
+}

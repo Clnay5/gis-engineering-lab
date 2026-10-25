@@ -1,0 +1,175 @@
+{
+  "summary": {
+    "samples": 6,
+    "valid": 6,
+    "issues": 2,
+    "distanceMeters": 6684.863330557078
+  },
+  "issues": [
+    {
+      "index": 3,
+      "code": "SPEED_SPIKE",
+      "speedKmh": 22480.321468971135
+    },
+    {
+      "index": 4,
+      "code": "DUPLICATE_TIME"
+    }
+  ],
+  "segments": [
+    {
+      "from": 0,
+      "to": 1,
+      "distanceMeters": 146.77738702869868,
+      "speedKmh": 52.83985933033153,
+      "seconds": 10
+    },
+    {
+      "from": 1,
+      "to": 2,
+      "distanceMeters": 146.77674406244415,
+      "speedKmh": 52.839627862479894,
+      "seconds": 10
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "distanceMeters": 6244.53374138087,
+      "speedKmh": 22480.321468971135,
+      "seconds": 1
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "distanceMeters": 6098.770835734175,
+      "speedKmh": null,
+      "seconds": 0
+    },
+    {
+      "from": 4,
+      "to": 5,
+      "distanceMeters": 146.77545808506554,
+      "speedKmh": 27.81008679506505,
+      "seconds": 19
+    }
+  ],
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.3,
+            30.5
+          ]
+        },
+        "properties": {
+          "index": 0,
+          "time": "2026-10-01T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.301,
+            30.501
+          ]
+        },
+        "properties": {
+          "index": 1,
+          "time": "2026-10-01T00:00:10Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.302,
+            30.502
+          ]
+        },
+        "properties": {
+          "index": 2,
+          "time": "2026-10-01T00:00:20Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.35,
+            30.54
+          ]
+        },
+        "properties": {
+          "index": 3,
+          "time": "2026-10-01T00:00:21Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.303,
+            30.503
+          ]
+        },
+        "properties": {
+          "index": 4,
+          "time": "2026-10-01T00:00:21Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.304,
+            30.504
+          ]
+        },
+        "properties": {
+          "index": 5,
+          "time": "2026-10-01T00:00:40Z"
+        }
+      }
+    ]
+  },
+  "visual": {
+    "kind": "points",
+    "points": [
+      [
+        114.3,
+        30.5
+      ],
+      [
+        114.301,
+        30.501
+      ],
+      [
+        114.302,
+        30.502
+      ],
+      [
+        114.35,
+        30.54
+      ],
+      [
+        114.303,
+        30.503
+      ],
+      [
+        114.304,
+        30.504
+      ]
+    ]
+  },
+  "limitations": "Spherical distances and adjacent-sample QC; no automatic deletion, map matching or interpolation across invalid samples. Speed limits are user thresholds, not fraud or travel-mode conclusions."
+}

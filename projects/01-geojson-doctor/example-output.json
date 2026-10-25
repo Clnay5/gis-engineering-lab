@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "features": 5,
+    "coordinateCount": 9,
+    "issues": 3,
+    "valid": 2
+  },
+  "issues": [
+    {
+      "index": 2,
+      "path": "/geometry/coordinates/0",
+      "code": "RING_OPEN",
+      "message": "ring is not closed"
+    },
+    {
+      "index": 3,
+      "path": "/geometry/coordinates",
+      "code": "RANGE",
+      "message": "expected WGS84 longitude/latitude"
+    },
+    {
+      "index": 4,
+      "path": "/id",
+      "code": "DUPLICATE_ID",
+      "message": "duplicate id"
+    }
+  ],
+  "bbox": [
+    114.1,
+    30,
+    199,
+    30.6
+  ],
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "station-a",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.3,
+            30.5
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "id": "river-a",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              114.1,
+              30.3
+            ],
+            [
+              114.5,
+              30.6
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "visual": {
+    "kind": "features",
+    "features": [
+      {
+        "type": "Feature",
+        "id": "station-a",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.3,
+            30.5
+          ]
+        },
+        "properties": {}
+      },
+      {
+        "type": "Feature",
+        "id": "river-a",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [
+              114.1,
+              30.3
+            ],
+            [
+              114.5,
+              30.6
+            ]
+          ]
+        },
+        "properties": {}
+      }
+    ]
+  },
+  "limitations": "Structural audit only; no self-intersection, winding repair, topology or antimeridian repair."
+}

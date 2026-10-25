@@ -1,0 +1,56 @@
+{
+  "testedAt": "2026-10-25T10:36:32.269Z",
+  "scope": "Local browser page initialization and visible metrics; not exhaustive interaction coverage",
+  "checks": [
+    {
+      "slug": "01-geojson-doctor",
+      "error": "",
+      "metrics": "输入要素\n5\n坐标数\n9\n待复核项\n3\n有效记录\n2"
+    },
+    {
+      "slug": "02-crs-converter",
+      "error": "",
+      "metrics": "输入点数\n5\n源坐标系\nEPSG:4326\n目标坐标系\nEPSG:3857"
+    },
+    {
+      "slug": "03-spatial-join-grid",
+      "error": "",
+      "metrics": "输入点数\n12\n多边形数\n3\n匹配点数\n9\n候选比较\n14\n穷举比较\n36\n索引网格\n84"
+    },
+    {
+      "slug": "04-idw-interpolator",
+      "error": "",
+      "metrics": "采样点数\n6\n有效像元\n480\n最小值\n15.0767\n最大值\n79.9346\n平均值\n41.7518\n距离幂次\n2\n邻居数\n4"
+    },
+    {
+      "slug": "05-ndvi-workbench",
+      "error": "",
+      "metrics": "有效像元\n407\n最小值\n-0.817561\n最大值\n0.911573\n平均值\n0.228219\n掩膜排除\n25\nNoData\n0\n零分母\n0"
+    },
+    {
+      "slug": "06-terrain-horn",
+      "error": "",
+      "metrics": "有效像元\n520\n最小值\n0\n最大值\n46.6543\n平均值\n28.76\n平地像元\n1"
+    },
+    {
+      "slug": "07-least-cost-router",
+      "error": "",
+      "metrics": "目标可达\n是\n总成本\n582.268\n路径像元\n27\n访问节点\n429"
+    },
+    {
+      "slug": "08-trajectory-qc",
+      "error": "",
+      "metrics": "采样点数\n6\n有效记录\n6\n待复核项\n2\n有效相邻段距离 / m\n6684.86"
+    },
+    {
+      "slug": "09-zonal-stats-grid",
+      "error": "",
+      "metrics": "分区数\n3\n栅格像元\n400\n分区有效观测\n593"
+    },
+    {
+      "slug": "10-geohash-explorer",
+      "error": "",
+      "metrics": "中心网格编码\nwt3m8\n编码字符数\n5\n邻接网格\n8"
+    }
+  ]
+}

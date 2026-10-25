@@ -1,0 +1,2 @@
+const cards=[...document.querySelectorAll('.card')];
+document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b===button));const group=button.dataset.filter;for(const card of cards)card.hidden=group!=='all'&&!card.dataset.group.includes(group);cards.forEach(card=>{card.style.display=card.hidden?'none':'flex';});}));

@@ -1,0 +1,147 @@
+{
+  "summary": {
+    "points": 5,
+    "source": "EPSG:4326",
+    "target": "EPSG:3857"
+  },
+  "converted": [
+    [
+      12723817.797671169,
+      3567983.4559358195
+    ],
+    [
+      12957588.728337044,
+      4851421.175183359
+    ],
+    [
+      13525318.131382737,
+      3658750.280282992
+    ],
+    [
+      -8238310.235647004,
+      4970071.579142423
+    ],
+    [
+      0,
+      -7.081154551613622e-10
+    ]
+  ],
+  "roundtrip": [
+    [
+      114.3,
+      30.499999999999986
+    ],
+    [
+      116.4,
+      39.90000000000001
+    ],
+    [
+      121.5,
+      31.199999999999996
+    ],
+    [
+      -74.006,
+      40.71279999999999
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "geojson": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            114.3,
+            30.5
+          ]
+        },
+        "properties": {
+          "index": 0
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            116.4,
+            39.9
+          ]
+        },
+        "properties": {
+          "index": 1
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            121.5,
+            31.2
+          ]
+        },
+        "properties": {
+          "index": 2
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.006,
+            40.7128
+          ]
+        },
+        "properties": {
+          "index": 3
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            0,
+            0
+          ]
+        },
+        "properties": {
+          "index": 4
+        }
+      }
+    ]
+  },
+  "visual": {
+    "kind": "points",
+    "points": [
+      [
+        114.3,
+        30.5
+      ],
+      [
+        116.4,
+        39.9
+      ],
+      [
+        121.5,
+        31.2
+      ],
+      [
+        -74.006,
+        40.7128
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  },
+  "limitations": "Only WGS84 longitude/latitude ↔ spherical Web Mercator. No datum shifts, UTM, GCJ-02 or BD-09."
+}

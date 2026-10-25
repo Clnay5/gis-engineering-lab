@@ -1,0 +1,424 @@
+TAP version 13
+# Subtest: valid Point reports bounds
+ok 1 - valid Point reports bounds
+  ---
+  duration_ms: 2.6405
+  type: 'test'
+  ...
+# Subtest: unclosed rings have a located issue
+ok 2 - unclosed rings have a located issue
+  ---
+  duration_ms: 0.6912
+  type: 'test'
+  ...
+# Subtest: invalid coordinates do not enter valid export
+ok 3 - invalid coordinates do not enter valid export
+  ---
+  duration_ms: 0.273
+  type: 'test'
+  ...
+# Subtest: duplicate identifiers are reported
+ok 4 - duplicate identifiers are reported
+  ---
+  duration_ms: 0.8031
+  type: 'test'
+  ...
+# Subtest: nested collections and null geometry are accepted
+ok 5 - nested collections and null geometry are accepted
+  ---
+  duration_ms: 0.3722
+  type: 'test'
+  ...
+# Subtest: bad properties and short lines are rejected
+ok 6 - bad properties and short lines are rejected
+  ---
+  duration_ms: 0.4253
+  type: 'test'
+  ...
+# Subtest: unsupported root fails clearly
+ok 7 - unsupported root fails clearly
+  ---
+  duration_ms: 0.4762
+  type: 'test'
+  ...
+# Subtest: origin is stable
+ok 8 - origin is stable
+  ---
+  duration_ms: 2.858
+  type: 'test'
+  ...
+# Subtest: one degree longitude follows spherical arc length
+ok 9 - one degree longitude follows spherical arc length
+  ---
+  duration_ms: 0.2677
+  type: 'test'
+  ...
+# Subtest: roundtrip across hemispheres
+ok 10 - roundtrip across hemispheres
+  ---
+  duration_ms: 0.3696
+  type: 'test'
+  ...
+# Subtest: poles fail instead of silently clamping
+ok 11 - poles fail instead of silently clamping
+  ---
+  duration_ms: 0.4051
+  type: 'test'
+  ...
+# Subtest: invalid projected square fails
+ok 12 - invalid projected square fails
+  ---
+  duration_ms: 0.2197
+  type: 'test'
+  ...
+# Subtest: GeoJSON export always uses longitude/latitude
+ok 13 - GeoJSON export always uses longitude/latitude
+  ---
+  duration_ms: 0.4181
+  type: 'test'
+  ...
+# Subtest: unknown direction is rejected
+ok 14 - unknown direction is rejected
+  ---
+  duration_ms: 0.2243
+  type: 'test'
+  ...
+# Subtest: points inside holes are excluded
+ok 15 - points inside holes are excluded
+  ---
+  duration_ms: 4.6139
+  type: 'test'
+  ...
+# Subtest: boundary policy applies to exterior and hole boundary
+ok 16 - boundary policy applies to exterior and hole boundary
+  ---
+  duration_ms: 0.5577
+  type: 'test'
+  ...
+# Subtest: overlapping polygons retain all matches
+ok 17 - overlapping polygons retain all matches
+  ---
+  duration_ms: 0.4425
+  type: 'test'
+  ...
+# Subtest: index cuts unnecessary candidates
+ok 18 - index cuts unnecessary candidates
+  ---
+  duration_ms: 0.3889
+  type: 'test'
+  ...
+# Subtest: negative coordinates index correctly
+ok 19 - negative coordinates index correctly
+  ---
+  duration_ms: 0.3272
+  type: 'test'
+  ...
+# Subtest: open rings and excessive index size fail
+ok 20 - open rings and excessive index size fail
+  ---
+  duration_ms: 0.5813
+  type: 'test'
+  ...
+# Subtest: equal distances give arithmetic mean
+ok 21 - equal distances give arithmetic mean
+  ---
+  duration_ms: 2.9757
+  type: 'test'
+  ...
+# Subtest: exact observations are honoured
+ok 22 - exact observations are honoured
+  ---
+  duration_ms: 0.2599
+  type: 'test'
+  ...
+# Subtest: coincident observations are averaged
+ok 23 - coincident observations are averaged
+  ---
+  duration_ms: 0.2557
+  type: 'test'
+  ...
+# Subtest: radius gaps remain NoData
+ok 24 - radius gaps remain NoData
+  ---
+  duration_ms: 0.1694
+  type: 'test'
+  ...
+# Subtest: constant field remains constant
+ok 25 - constant field remains constant
+  ---
+  duration_ms: 0.949
+  type: 'test'
+  ...
+# Subtest: geographic degrees are refused
+ok 26 - geographic degrees are refused
+  ---
+  duration_ms: 0.4107
+  type: 'test'
+  ...
+# Subtest: invalid k and powers are refused
+ok 27 - invalid k and powers are refused
+  ---
+  duration_ms: 0.3258
+  type: 'test'
+  ...
+# Subtest: known reflectance yields NDVI 0.6
+ok 28 - known reflectance yields NDVI 0.6
+  ---
+  duration_ms: 3.2262
+  type: 'test'
+  ...
+# Subtest: zero denominator produces null
+ok 29 - zero denominator produces null
+  ---
+  duration_ms: 0.3475
+  type: 'test'
+  ...
+# Subtest: NoData propagates
+ok 30 - NoData propagates
+  ---
+  duration_ms: 0.2786
+  type: 'test'
+  ...
+# Subtest: mask excludes cloud pixels
+ok 31 - mask excludes cloud pixels
+  ---
+  duration_ms: 0.2297
+  type: 'test'
+  ...
+# Subtest: negative reflectance is rejected
+ok 32 - negative reflectance is rejected
+  ---
+  duration_ms: 0.4303
+  type: 'test'
+  ...
+# Subtest: mismatched and ragged arrays fail
+ok 33 - mismatched and ragged arrays fail
+  ---
+  duration_ms: 0.251
+  type: 'test'
+  ...
+# Subtest: reflectance NDVI stays between -1 and 1
+ok 34 - reflectance NDVI stays between -1 and 1
+  ---
+  duration_ms: 1.2075
+  type: 'test'
+  ...
+# Subtest: flat surface has zero slope and null aspect
+ok 35 - flat surface has zero slope and null aspect
+  ---
+  duration_ms: 3.4141
+  type: 'test'
+  ...
+# Subtest: east-rising plane drains west at 270 degrees
+ok 36 - east-rising plane drains west at 270 degrees
+  ---
+  duration_ms: 0.3461
+  type: 'test'
+  ...
+# Subtest: north-rising plane drains south
+ok 37 - north-rising plane drains south
+  ---
+  duration_ms: 0.3218
+  type: 'test'
+  ...
+# Subtest: south-rising plane drains north
+ok 38 - south-rising plane drains north
+  ---
+  duration_ms: 0.2511
+  type: 'test'
+  ...
+# Subtest: non-square cells respect dx
+ok 39 - non-square cells respect dx
+  ---
+  duration_ms: 0.4646
+  type: 'test'
+  ...
+# Subtest: NoData stencil and edges remain null
+ok 40 - NoData stencil and edges remain null
+  ---
+  duration_ms: 0.3691
+  type: 'test'
+  ...
+# Subtest: unprojected and tiny DEMs are refused
+ok 41 - unprojected and tiny DEMs are refused
+  ---
+  duration_ms: 0.4722
+  type: 'test'
+  ...
+# Subtest: uniform 4-neighbour cost is Manhattan distance
+ok 42 - uniform 4-neighbour cost is Manhattan distance
+  ---
+  duration_ms: 3.227
+  type: 'test'
+  ...
+# Subtest: 8-neighbour cost includes geometric diagonal distance
+ok 43 - 8-neighbour cost includes geometric diagonal distance
+  ---
+  duration_ms: 0.4971
+  type: 'test'
+  ...
+# Subtest: diagonal cannot slip between barriers
+ok 44 - diagonal cannot slip between barriers
+  ---
+  duration_ms: 0.2806
+  type: 'test'
+  ...
+# Subtest: source equals destination costs zero
+ok 45 - source equals destination costs zero
+  ---
+  duration_ms: 0.2063
+  type: 'test'
+  ...
+# Subtest: path detours around high friction
+ok 46 - path detours around high friction
+  ---
+  duration_ms: 0.3277
+  type: 'test'
+  ...
+# Subtest: edge cost averages endpoint friction
+ok 47 - edge cost averages endpoint friction
+  ---
+  duration_ms: 0.198
+  type: 'test'
+  ...
+# Subtest: blocked endpoints and nonpositive friction are rejected
+ok 48 - blocked endpoints and nonpositive friction are rejected
+  ---
+  duration_ms: 0.4896
+  type: 'test'
+  ...
+# Subtest: zero distance is exact
+ok 49 - zero distance is exact
+  ---
+  duration_ms: 2.5961
+  type: 'test'
+  ...
+# Subtest: equatorial degree has expected spherical distance
+ok 50 - equatorial degree has expected spherical distance
+  ---
+  duration_ms: 0.3235
+  type: 'test'
+  ...
+# Subtest: antimeridian uses shortest spherical arc
+ok 51 - antimeridian uses shortest spherical arc
+  ---
+  duration_ms: 0.2322
+  type: 'test'
+  ...
+# Subtest: duplicate timestamp yields flag and null speed
+ok 52 - duplicate timestamp yields flag and null speed
+  ---
+  duration_ms: 6.2071
+  type: 'test'
+  ...
+# Subtest: speed threshold flags impossible jump
+ok 53 - speed threshold flags impossible jump
+  ---
+  duration_ms: 0.3294
+  type: 'test'
+  ...
+# Subtest: bad sample is not bridged during distance computation
+ok 54 - bad sample is not bridged during distance computation
+  ---
+  duration_ms: 0.3236
+  type: 'test'
+  ...
+# Subtest: reversed time and impossible calendar dates are reported
+ok 55 - reversed time and impossible calendar dates are reported
+  ---
+  duration_ms: 0.3105
+  type: 'test'
+  ...
+# Subtest: whole grid has known mean and population variance
+ok 56 - whole grid has known mean and population variance
+  ---
+  duration_ms: 2.1466
+  type: 'test'
+  ...
+# Subtest: cell area uses dx×dy
+ok 57 - cell area uses dx×dy
+  ---
+  duration_ms: 0.3684
+  type: 'test'
+  ...
+# Subtest: NoData is not converted to zero
+ok 58 - NoData is not converted to zero
+  ---
+  duration_ms: 0.3274
+  type: 'test'
+  ...
+# Subtest: empty zone statistics are null
+ok 59 - empty zone statistics are null
+  ---
+  duration_ms: 0.3108
+  type: 'test'
+  ...
+# Subtest: holes exclude cell centres
+ok 60 - holes exclude cell centres
+  ---
+  duration_ms: 0.2773
+  type: 'test'
+  ...
+# Subtest: north-up origin selects top row
+ok 61 - north-up origin selects top row
+  ---
+  duration_ms: 0.2829
+  type: 'test'
+  ...
+# Subtest: overlapping zones are independent
+ok 62 - overlapping zones are independent
+  ---
+  duration_ms: 0.231
+  type: 'test'
+  ...
+# Subtest: known reference vector matches standard geohash
+ok 63 - known reference vector matches standard geohash
+  ---
+  duration_ms: 2.4847
+  type: 'test'
+  ...
+# Subtest: decoded cell contains original coordinate
+ok 64 - decoded cell contains original coordinate
+  ---
+  duration_ms: 0.5543
+  type: 'test'
+  ...
+# Subtest: precision increases spatial resolution
+ok 65 - precision increases spatial resolution
+  ---
+  duration_ms: 0.2451
+  type: 'test'
+  ...
+# Subtest: ordinary cell has eight distinct neighbours
+ok 66 - ordinary cell has eight distinct neighbours
+  ---
+  duration_ms: 0.7952
+  type: 'test'
+  ...
+# Subtest: longitude wraps around dateline neighbours
+ok 67 - longitude wraps around dateline neighbours
+  ---
+  duration_ms: 0.3957
+  type: 'test'
+  ...
+# Subtest: pole-crossing neighbours are omitted
+ok 68 - pole-crossing neighbours are omitted
+  ---
+  duration_ms: 0.3259
+  type: 'test'
+  ...
+# Subtest: bad alphabet, poles and precision are refused
+ok 69 - bad alphabet, poles and precision are refused
+  ---
+  duration_ms: 0.4706
+  type: 'test'
+  ...
+1..69
+# tests 69
+# suites 0
+# pass 69
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 542.1528
