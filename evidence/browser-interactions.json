@@ -1,0 +1,11 @@
+{
+  "invalidJSONShowsError": true,
+  "downloadedPathCells": 41,
+  "route8DisplayedCost": 582.268,
+  "checkedAt": "2026-10-25T10:48:22.3799111Z",
+  "exportDisabledOnInvalidInput": true,
+  "downloadedRouteCost": 698,
+  "resetRecoversSample": true,
+  "route4DisplayedCost": 698,
+  "scope": "Selected local browser interaction checks, not exhaustive coverage"
+}
