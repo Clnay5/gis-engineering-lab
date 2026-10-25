@@ -1,0 +1,50 @@
+{
+  "scope": "Public HTTP reachability of hub and ten demo HTML pages",
+  "checks": [
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/01-geojson-doctor/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/02-crs-converter/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/03-spatial-join-grid/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/04-idw-interpolator/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/05-ndvi-workbench/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/06-terrain-horn/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/07-least-cost-router/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/08-trajectory-qc/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/09-zonal-stats-grid/",
+      "status": 200
+    },
+    {
+      "url": "https://clnay5.github.io/gis-engineering-lab/demos/10-geohash-explorer/",
+      "status": 200
+    }
+  ],
+  "checkedAt": "2026-10-25T10:50:28.0444279Z"
+}
